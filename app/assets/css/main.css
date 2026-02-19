@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+:root {
+  --font-display: 'Lora', Georgia, serif;
+  --font-body: 'DM Sans', sans-serif;
+  --color-bg: #faf9f6;
+  --color-text: #1c1917;
+  --color-muted: #78716c;
+  --color-accent: #c2410c;
+  --color-border: #e7e5e4;
+}
+
+.dark {
+  --color-bg: #0c0a09;
+  --color-text: #fafaf9;
+  --color-muted: #a8a29e;
+  --color-accent: #ea580c;
+  --color-border: #292524;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
