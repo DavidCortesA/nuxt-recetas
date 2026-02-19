@@ -45,6 +45,11 @@ Visita `http://localhost:3000`
 recetas-app/
 ├── app/
 │   ├── app.vue              # Root component
+│   ├── error.vue            # Pagina de error
+│   ├── app.config.ts        # configuracion global
+│   ├── assets/
+│   │   └── css/
+│   │   │   └── main.css     # Estilos globales
 │   ├── layouts/
 │   │   └── default.vue      # Layout con nav y footer
 │   ├── pages/
@@ -56,7 +61,9 @@ recetas-app/
 │   └── composables/
 │       ├── useRecetas.ts    # Lógica de API
 │       └── useFavoritas.ts  # Gestión de favoritas
-├── assets/css/main.css      # Estilos globales
+├── public
+│   ├── og-image.png
+│   └── favicon.png
 ├── nuxt.config.ts
 └── package.json
 ```
